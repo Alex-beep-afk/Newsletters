@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+    width:100vw;
+}
+main{
+    width: 100%;
+    
+}
+a{
+    background-color: brown;
+    width: 158px;
+    height: 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    align-self: center;
+    text-align: center;
+}
+/* header */
+header{
+    margin: 0 1%;
+    padding: 0 1% 1% 1%;
+    background-image: url(Asset/Background_head.jpg);
+    background-size: cover;
+    border-radius: 0% 0% 50px 50px;
+    display: flex;
+}
+#titre{
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+
+}
+.log{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.log>img:first-child{
+    width: 25%;
+    
+}
+.icon{
+    margin-left: 4%;
+   
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+/* Aricle Horloge */
+.horloge>img{
+    width: 229px;
+    height: 229px;
+    border-radius: 50%;
+}
+.horloge{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    padding: 10px;
+    /* background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.3)), url('Asset/Background_head.jpg');; */
+}
+.horloge:hover{
+    transform: translateY(-50px);
+    transition: 1s ;
+    box-shadow: 0px 33px 16px -4px #8F9091 ;
+}
+.horloges{
+    display: flex;
+    justify-content: center;
+    gap: 50px;    
+    
+}
+/* Entre deux */
+.liste{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+/* ------------Section_evenement------------ */
+/* Event */
+/* Sol_Antilles */
+.event{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+.sol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.event>img{
+    width: 400px;
+    height: 600px;
+}
+.evenement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Tambou K-raib*/
+.tambou>img{
+    width: 400px;
+    height: 600px;
+}
+.tambou{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* Entre_deux_Bas */
+.creati>img{
+    width: 75%;
+    
+}
+.creati{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Footer */
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 50px 50px ;
+}
+
+
+
